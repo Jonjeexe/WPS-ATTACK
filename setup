@@ -1,0 +1,11 @@
+echo "[~] Installing requirements"
+echo "[~] its may take few minutes"
+pkg update -y
+pkg upgrade -y
+pkg install root-repo -y
+pkg install tsu -y
+pkg install wget -y
+pkg install python-pip -y
+pkg install wpa-supplicant pixiewps iw openssl -y
+pip install --upgrade pip
+pip install wcwidth
